@@ -15,18 +15,18 @@ my   ($nom_gmid,$nom_txt) = @_;
     
 	Ejecutar como:
 	
-	--->  perl tesala.pl  archivo.gmid  archivo_list.txt  <---
+	--->  perl tesela.pl  archivo.gmid  archivo_list.txt  <---
 	
 	resultado  en: archivo_DATA.txt
 	__________
 	
 	opciones:
 	
-	tesala -h    -->  Esta ayuda.
+	tesela -h    -->  Esta ayuda.
 	
-	tesala -i    -->  Informacion sobre tesala y Google Maps, etc.
+	tesela -i    -->  Informacion sobre tesela y Google Maps, etc.
 	
-	tesala -c    -->  Creditos.
+	tesela -c    -->  Creditos.
 	
 	___________
 	
@@ -41,7 +41,7 @@ my   ($nom_gmid,$nom_txt) = @_;
     elsif ($_[0] eq "\-c"){
 	print "
 	----------------------------------------------------------------------
-	tesala: version 1.0. (Junio 2011)
+	tesela: version 1.0. (Junio 2011)
 	
 	para el Centro de Sismologia de la Universidad de Oriente.
 	
@@ -56,7 +56,7 @@ my   ($nom_gmid,$nom_txt) = @_;
     elsif ($_[0] eq "\-i"){
     print "Informacion:
     
-    	TESALA: Nombre de las piezas cubicas de marmol, piedra, ect., que
+    	TESELA: Nombre de las piezas cubicas de marmol, piedra, ect., que
 	empleaban  los antiguos para formar  los pavimentos de mosaico.
 
 El API de Google Maps utiliza tres sistemas de coordenadas:
@@ -65,11 +65,11 @@ El API de Google Maps utiliza tres sistemas de coordenadas:
 -Coordenadas de mosaico, hacen referencia a una tesela en una capa de mosaicos
 -La capa de acercamiento, que define el numero total de mosaicos
 
-Google Maps divide al mundo en un conjunto de cuadriculas (llamadas Tesalas) ,
+Google Maps divide al mundo en un conjunto de cuadriculas (llamadas Teselas) ,
 que cubren la superficie completa de la tierra, en cada nivel de acercamiento.
-Cada nivel de acercamiento sucesivo divide el mapa en 4*(tesalas)^N; donde N
+Cada nivel de acercamiento sucesivo divide el mapa en 4*(teselas)^N; donde N
 representa el nivel de acercamiento o zoon.
-Cada tesala o cubo virtual de Google Maps consta de 256 x 256 pixeles, se puede
+Cada tesela o cubo virtual de Google Maps consta de 256 x 256 pixeles, se puede
 hacer referencia a una cuadricula concreta mediante un par de coordenadas (X,Y).
 Para hacer referencia a un punto especifico en un acercamiento > 1, el API de
 Google Maps no podría utilizar un archivo unico de imagen para mostrar toda la
@@ -118,7 +118,7 @@ Los niveles de precision superiores al sexto decimal se ignoran.
 	   
 	   No introdujo correctamente los archivos de entrada,
 	   
-	            ---->  ejecute tesala -h  <----
+	            ---->  ejecute tesela -h  <----
 	   
 	   ";
 	   END;
@@ -128,7 +128,7 @@ Los niveles de precision superiores al sexto decimal se ignoran.
 }
 
 
-# Carga el archivo con los parametros de cada tesala
+# Carga el archivo con los parametros de cada tesela
 sub cargar_archivo {
     open  (PATO,$_[0])  or die "no puedo abrir el archivo:   $!";
     my $index = 0;
@@ -146,7 +146,7 @@ sub cargar_archivo {
 
 
 # Carga parametros esenciales desde el archivo .GMID
-# Coordenadaa (MinX, MinY) de la cuadricula (tesala) origen
+# Coordenadaa (MinX, MinY) de la cuadricula (tesela) origen
 # correspondiente a la diagonal del rectangulo geografico suministrado
 # =====================================================================
 sub carga_GMID {
