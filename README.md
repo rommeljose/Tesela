@@ -2,7 +2,9 @@ Tesela
 
 Local GIS vs. GoogleMap
 ====
+
 Objetivo: Disponer de una herramienta de software que permita descargar de los servidores de GoogleMaps, imágenes de sus diversos tipos de mapas en la mejor resolución ofertada.
+----
 
 La tesela es una pequeña pieza de piedra, terracota o vidrio coloreado que se utiliza para confeccionar un mosaico. La palabra proviene del latín tessella que, a su vez, procede del término griego τεσσερες (wikipedia).
 
@@ -11,7 +13,7 @@ La historia del desarrollo de la cartografía, en ambos lados del mundo (oriente
 Google Maps en forma general, no es más que una sofisticada herramienta tecnológica informática, que en base a consideraciones propias y otras estandarizadas desde la antigüedad, establece un marco referencial donde es posible desplegar diversos tipos de mapas dinámicos y estáticos; con una estructura de capas de información superpuestas, con contenido de objetos híper vinculados a una diversidad de nuevas fuentes de información gráfica y documental sobre la web. 
 
 Algunos detalles del marco referencial cartográfico de GoogleMaps son discutidos en este artículo, que tiene un  objetivo concreto, pero que también pretende convertirse en un discurso explicativo de una tecnología mistificada y cerrada; pero que en razón de la herencia tecnológica, es propia de todos los pueblos del mundo.
-====
+
 ver: 
 
 https://cosmografiagoogle.wordpress.com/
