@@ -14,7 +14,6 @@ Algunos detalles del marco referencial cartográfico de GoogleMaps son discutido
 
 ver: 
 
-
-http://ciencia.digital.info.ve/search?updated-max=2012-09-17T20:30:00-04:30&max-results=100#uds-search-results
-
 https://cosmografiagoogle.wordpress.com/
+
+http://ciencia.digital.info.ve/2012/09/la-cosmografia-de-google.html
