@@ -10,4 +10,9 @@ Google Maps en forma general, no es más que una sofisticada herramienta tecnol�
 Algunos detalles del marco referencial cartográfico de GoogleMaps son discutidos en este artículo, que tiene un  objetivo concreto, pero que también pretende convertirse en un discurso explicativo de una tecnología mistificada y cerrada; pero que en razón de la herencia tecnológica, es propia de todos los pueblos del mundo.
 
 
-ver: http://ciencia.digital.info.ve/search?updated-max=2012-09-17T20:30:00-04:30&max-results=100#uds-search-results
+ver: 
+
+
+http://ciencia.digital.info.ve/search?updated-max=2012-09-17T20:30:00-04:30&max-results=100#uds-search-results
+
+https://cosmografiagoogle.wordpress.com/
