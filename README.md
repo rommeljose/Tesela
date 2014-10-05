@@ -1,4 +1,6 @@
-cubo
+Tesela 
+
+La tesela es una pequeña pieza de piedra, terracota o vidrio coloreado que se utiliza para confeccionar un mosaico. La palabra proviene del latín tessella que, a su vez, procede del término griego τεσσερες (wikipedia).
 ====
 
 Local GIS vs. GoogleMap
