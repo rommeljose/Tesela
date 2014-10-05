@@ -1,6 +1,4 @@
 Tesela 
-
-Local GIS vs. GoogleMap
 ====
 
 Objetivo: Disponer de una herramienta de software que permita descargar de los servidores de GoogleMaps, imágenes de sus diversos tipos de mapas en la mejor resolución ofertada.
