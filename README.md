@@ -18,4 +18,4 @@ ver:
 
 https://cosmografiagoogle.wordpress.com/
 
-http://ciencia.digital.info.ve/2012/09/la-cosmografia-de-google.html
+http://tecnologiacumanesa.blogspot.com/2012/09/la-cosmografia-de-google.html
